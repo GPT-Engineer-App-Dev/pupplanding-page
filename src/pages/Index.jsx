@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
               <li><a href="#services" className="text-gray-600 hover:text-gray-900">Services</a></li>
               <li><a href="#gallery" className="text-gray-600 hover:text-gray-900">Gallery</a></li>
               <li><a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a></li>
+              <li><Link to="/puppies" className="text-gray-600 hover:text-gray-900">Puppies</Link></li>
             </ul>
           </nav>
         </div>
